@@ -76,7 +76,7 @@ print("1) Create New User")
 print("2) Attempt To Login")
 print()
 
-while abs(int(choice)) > 2:
+while choice != '2' and choice != '1':
 	choice = input("Choose[1,2]: ")
 	
 if choice == "1":
